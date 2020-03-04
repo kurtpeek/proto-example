@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/kurtpeek/proto-example/result"
+	"github.com/kurtpeek/proto-example/gen/go/book"
 )
 
 func main() {
-	res := result.Result{Status: result.Result_STATUS_FAILED}
-	fmt.Printf("%+v\n", res)
+	b := book.Book{}
+	fmt.Println(b)
 }

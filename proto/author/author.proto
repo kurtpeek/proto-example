@@ -1,0 +1,6 @@
+syntax="proto3";
+package author;
+
+message Author {
+    string name = 1;
+}

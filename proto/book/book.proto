@@ -1,0 +1,9 @@
+syntax="proto3";
+package book;
+
+import "author/author.proto";
+
+message Book {
+    string title = 1;
+    author.Author author = 2;
+}
