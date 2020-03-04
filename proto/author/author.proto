@@ -1,7 +1,7 @@
 syntax="proto3";
 package author;
 
-option go_package = "github.com/kurtpeek/proto-examples/gen/go/author";
+option go_package = "github.com/kurtpeek/proto-example/gen/go/author";
 
 message Author {
     string name = 1;
