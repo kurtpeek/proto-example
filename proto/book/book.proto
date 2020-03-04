@@ -1,6 +1,7 @@
 syntax="proto3";
 package book;
 
+option go_package = "github.com/kurtpeek/proto-examples/gen/go/book";
 import "author/author.proto";
 
 message Book {
